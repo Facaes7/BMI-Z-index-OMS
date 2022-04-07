@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.0.2
+- https://www.phpmyadmin.net
+-
+- Servidor: 127.0.0.1:3306
+- Tiempo de generación: 07-04-2022 a las 17:08:59
+- Versión del servidor: 8.0.21
+- Versión de PHP: 7.4.9
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="sinutri" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="pesoedadmasculino">
+                CREATE TABLE `pesoedadmasculino` (
+                  `mes` int NOT NULL,
+                  `l` float DEFAULT NULL,
+                  `m` float DEFAULT NULL,
+                  `s` float DEFAULT NULL,
+                  `sd3neg` float DEFAULT NULL,
+                  `sd2neg` float DEFAULT NULL,
+                  `sd1neg` float DEFAULT NULL,
+                  `sd0` float DEFAULT NULL,
+                  `sd1` float DEFAULT NULL,
+                  `sd2` float DEFAULT NULL,
+                  `sd3` float DEFAULT NULL,
+                  PRIMARY KEY (`mes`)
+                ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de datos: 'sinutri'
+    -->
+    <database name="sinutri">
+        <!-- Tabla pesoedadmasculino -->
+        <table name="pesoedadmasculino">
+            <column name="mes">0</column>
+            <column name="l">0.3487</column>
+            <column name="m">3.3464</column>
+            <column name="s">0.14602</column>
+            <column name="sd3neg">2.1</column>
+            <column name="sd2neg">2.5</column>
+            <column name="sd1neg">2.9</column>
+            <column name="sd0">3.3</column>
+            <column name="sd1">3.9</column>
+            <column name="sd2">4.4</column>
+            <column name="sd3">5</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">1</column>
+            <column name="l">0.2297</column>
+            <column name="m">4.4709</column>
+            <column name="s">0.13395</column>
+            <column name="sd3neg">2.9</column>
+            <column name="sd2neg">3.4</column>
+            <column name="sd1neg">3.9</column>
+            <column name="sd0">4.5</column>
+            <column name="sd1">5.1</column>
+            <column name="sd2">5.8</column>
+            <column name="sd3">6.6</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">2</column>
+            <column name="l">0.197</column>
+            <column name="m">5.5675</column>
+            <column name="s">0.12385</column>
+            <column name="sd3neg">3.8</column>
+            <column name="sd2neg">4.3</column>
+            <column name="sd1neg">4.9</column>
+            <column name="sd0">5.6</column>
+            <column name="sd1">6.3</column>
+            <column name="sd2">7.1</column>
+            <column name="sd3">8</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">3</column>
+            <column name="l">0.1738</column>
+            <column name="m">6.3762</column>
+            <column name="s">0.11727</column>
+            <column name="sd3neg">4.4</column>
+            <column name="sd2neg">5</column>
+            <column name="sd1neg">5.7</column>
+            <column name="sd0">6.4</column>
+            <column name="sd1">7.2</column>
+            <column name="sd2">8</column>
+            <column name="sd3">9</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">4</column>
+            <column name="l">0.1553</column>
+            <column name="m">7.0023</column>
+            <column name="s">0.11316</column>
+            <column name="sd3neg">4.9</column>
+            <column name="sd2neg">5.6</column>
+            <column name="sd1neg">6.2</column>
+            <column name="sd0">7</column>
+            <column name="sd1">7.8</column>
+            <column name="sd2">8.7</column>
+            <column name="sd3">9.7</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">5</column>
+            <column name="l">0.1395</column>
+            <column name="m">7.5105</column>
+            <column name="s">0.1108</column>
+            <column name="sd3neg">5.3</column>
+            <column name="sd2neg">6</column>
+            <column name="sd1neg">6.7</column>
+            <column name="sd0">7.5</column>
+            <column name="sd1">8.4</column>
+            <column name="sd2">9.3</column>
+            <column name="sd3">10.4</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">6</column>
+            <column name="l">0.1257</column>
+            <column name="m">7.934</column>
+            <column name="s">0.10958</column>
+            <column name="sd3neg">5.7</column>
+            <column name="sd2neg">6.4</column>
+            <column name="sd1neg">7.1</column>
+            <column name="sd0">7.9</column>
+            <column name="sd1">8.8</column>
+            <column name="sd2">9.8</column>
+            <column name="sd3">10.9</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">7</column>
+            <column name="l">0.1134</column>
+            <column name="m">8.297</column>
+            <column name="s">0.10902</column>
+            <column name="sd3neg">5.9</column>
+            <column name="sd2neg">6.7</column>
+            <column name="sd1neg">7.4</column>
+            <column name="sd0">8.3</column>
+            <column name="sd1">9.2</column>
+            <column name="sd2">10.3</column>
+            <column name="sd3">11.4</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">8</column>
+            <column name="l">0.1021</column>
+            <column name="m">8.6151</column>
+            <column name="s">0.10882</column>
+            <column name="sd3neg">6.2</column>
+            <column name="sd2neg">6.9</column>
+            <column name="sd1neg">7.7</column>
+            <column name="sd0">8.6</column>
+            <column name="sd1">9.6</column>
+            <column name="sd2">10.7</column>
+            <column name="sd3">11.9</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">9</column>
+            <column name="l">0.0917</column>
+            <column name="m">8.9014</column>
+            <column name="s">0.10881</column>
+            <column name="sd3neg">6.4</column>
+            <column name="sd2neg">7.1</column>
+            <column name="sd1neg">8</column>
+            <column name="sd0">8.9</column>
+            <column name="sd1">9.9</column>
+            <column name="sd2">11</column>
+            <column name="sd3">12.3</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">10</column>
+            <column name="l">0.082</column>
+            <column name="m">9.1649</column>
+            <column name="s">0.10891</column>
+            <column name="sd3neg">6.6</column>
+            <column name="sd2neg">7.4</column>
+            <column name="sd1neg">8.2</column>
+            <column name="sd0">9.2</column>
+            <column name="sd1">10.2</column>
+            <column name="sd2">11.4</column>
+            <column name="sd3">12.7</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">11</column>
+            <column name="l">0.073</column>
+            <column name="m">9.4122</column>
+            <column name="s">0.10906</column>
+            <column name="sd3neg">6.8</column>
+            <column name="sd2neg">7.6</column>
+            <column name="sd1neg">8.4</column>
+            <column name="sd0">9.4</column>
+            <column name="sd1">10.5</column>
+            <column name="sd2">11.7</column>
+            <column name="sd3">13</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">12</column>
+            <column name="l">0.0644</column>
+            <column name="m">9.6479</column>
+            <column name="s">0.10925</column>
+            <column name="sd3neg">6.9</column>
+            <column name="sd2neg">7.7</column>
+            <column name="sd1neg">8.6</column>
+            <column name="sd0">9.6</column>
+            <column name="sd1">10.8</column>
+            <column name="sd2">12</column>
+            <column name="sd3">13.3</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">13</column>
+            <column name="l">0.0563</column>
+            <column name="m">9.8749</column>
+            <column name="s">0.10949</column>
+            <column name="sd3neg">7.1</column>
+            <column name="sd2neg">7.9</column>
+            <column name="sd1neg">8.8</column>
+            <column name="sd0">9.9</column>
+            <column name="sd1">11</column>
+            <column name="sd2">12.3</column>
+            <column name="sd3">13.7</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">14</column>
+            <column name="l">0.0487</column>
+            <column name="m">10.0953</column>
+            <column name="s">0.10976</column>
+            <column name="sd3neg">7.2</column>
+            <column name="sd2neg">8.1</column>
+            <column name="sd1neg">9</column>
+            <column name="sd0">10.1</column>
+            <column name="sd1">11.3</column>
+            <column name="sd2">12.6</column>
+            <column name="sd3">14</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">15</column>
+            <column name="l">0.0413</column>
+            <column name="m">10.3108</column>
+            <column name="s">0.11007</column>
+            <column name="sd3neg">7.4</column>
+            <column name="sd2neg">8.3</column>
+            <column name="sd1neg">9.2</column>
+            <column name="sd0">10.3</column>
+            <column name="sd1">11.5</column>
+            <column name="sd2">12.8</column>
+            <column name="sd3">14.3</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">16</column>
+            <column name="l">0.0343</column>
+            <column name="m">10.5228</column>
+            <column name="s">0.11041</column>
+            <column name="sd3neg">7.5</column>
+            <column name="sd2neg">8.4</column>
+            <column name="sd1neg">9.4</column>
+            <column name="sd0">10.5</column>
+            <column name="sd1">11.7</column>
+            <column name="sd2">13.1</column>
+            <column name="sd3">14.6</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">17</column>
+            <column name="l">0.0275</column>
+            <column name="m">10.7319</column>
+            <column name="s">0.11079</column>
+            <column name="sd3neg">7.7</column>
+            <column name="sd2neg">8.6</column>
+            <column name="sd1neg">9.6</column>
+            <column name="sd0">10.7</column>
+            <column name="sd1">12</column>
+            <column name="sd2">13.4</column>
+            <column name="sd3">14.9</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">18</column>
+            <column name="l">0.0211</column>
+            <column name="m">10.9385</column>
+            <column name="s">0.11119</column>
+            <column name="sd3neg">7.8</column>
+            <column name="sd2neg">8.8</column>
+            <column name="sd1neg">9.8</column>
+            <column name="sd0">10.9</column>
+            <column name="sd1">12.2</column>
+            <column name="sd2">13.7</column>
+            <column name="sd3">15.3</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">19</column>
+            <column name="l">0.0148</column>
+            <column name="m">11.143</column>
+            <column name="s">0.11164</column>
+            <column name="sd3neg">8</column>
+            <column name="sd2neg">8.9</column>
+            <column name="sd1neg">10</column>
+            <column name="sd0">11.1</column>
+            <column name="sd1">12.5</column>
+            <column name="sd2">13.9</column>
+            <column name="sd3">15.6</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">20</column>
+            <column name="l">0.0087</column>
+            <column name="m">11.3462</column>
+            <column name="s">0.11211</column>
+            <column name="sd3neg">8.1</column>
+            <column name="sd2neg">9.1</column>
+            <column name="sd1neg">10.1</column>
+            <column name="sd0">11.3</column>
+            <column name="sd1">12.7</column>
+            <column name="sd2">14.2</column>
+            <column name="sd3">15.9</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">21</column>
+            <column name="l">0.0029</column>
+            <column name="m">11.5486</column>
+            <column name="s">0.11261</column>
+            <column name="sd3neg">8.2</column>
+            <column name="sd2neg">9.2</column>
+            <column name="sd1neg">10.3</column>
+            <column name="sd0">11.5</column>
+            <column name="sd1">12.9</column>
+            <column name="sd2">14.5</column>
+            <column name="sd3">16.2</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">22</column>
+            <column name="l">-0.0028</column>
+            <column name="m">11.7504</column>
+            <column name="s">0.11314</column>
+            <column name="sd3neg">8.4</column>
+            <column name="sd2neg">9.4</column>
+            <column name="sd1neg">10.5</column>
+            <column name="sd0">11.8</column>
+            <column name="sd1">13.2</column>
+            <column name="sd2">14.7</column>
+            <column name="sd3">16.5</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">23</column>
+            <column name="l">-0.0083</column>
+            <column name="m">11.9514</column>
+            <column name="s">0.11369</column>
+            <column name="sd3neg">8.5</column>
+            <column name="sd2neg">9.5</column>
+            <column name="sd1neg">10.7</column>
+            <column name="sd0">12</column>
+            <column name="sd1">13.4</column>
+            <column name="sd2">15</column>
+            <column name="sd3">16.8</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">24</column>
+            <column name="l">-0.0137</column>
+            <column name="m">12.1515</column>
+            <column name="s">0.11426</column>
+            <column name="sd3neg">8.6</column>
+            <column name="sd2neg">9.7</column>
+            <column name="sd1neg">10.8</column>
+            <column name="sd0">12.2</column>
+            <column name="sd1">13.6</column>
+            <column name="sd2">15.3</column>
+            <column name="sd3">17.1</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">25</column>
+            <column name="l">-0.0189</column>
+            <column name="m">12.3502</column>
+            <column name="s">0.11485</column>
+            <column name="sd3neg">8.8</column>
+            <column name="sd2neg">9.8</column>
+            <column name="sd1neg">11</column>
+            <column name="sd0">12.4</column>
+            <column name="sd1">13.9</column>
+            <column name="sd2">15.5</column>
+            <column name="sd3">17.5</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">26</column>
+            <column name="l">-0.024</column>
+            <column name="m">12.5466</column>
+            <column name="s">0.11544</column>
+            <column name="sd3neg">8.9</column>
+            <column name="sd2neg">10</column>
+            <column name="sd1neg">11.2</column>
+            <column name="sd0">12.5</column>
+            <column name="sd1">14.1</column>
+            <column name="sd2">15.8</column>
+            <column name="sd3">17.8</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">27</column>
+            <column name="l">-0.0289</column>
+            <column name="m">12.7401</column>
+            <column name="s">0.11604</column>
+            <column name="sd3neg">9</column>
+            <column name="sd2neg">10.1</column>
+            <column name="sd1neg">11.3</column>
+            <column name="sd0">12.7</column>
+            <column name="sd1">14.3</column>
+            <column name="sd2">16.1</column>
+            <column name="sd3">18.1</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">28</column>
+            <column name="l">-0.0337</column>
+            <column name="m">12.9303</column>
+            <column name="s">0.11664</column>
+            <column name="sd3neg">9.1</column>
+            <column name="sd2neg">10.2</column>
+            <column name="sd1neg">11.5</column>
+            <column name="sd0">12.9</column>
+            <column name="sd1">14.5</column>
+            <column name="sd2">16.3</column>
+            <column name="sd3">18.4</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">29</column>
+            <column name="l">-0.0385</column>
+            <column name="m">13.1169</column>
+            <column name="s">0.11723</column>
+            <column name="sd3neg">9.2</column>
+            <column name="sd2neg">10.4</column>
+            <column name="sd1neg">11.7</column>
+            <column name="sd0">13.1</column>
+            <column name="sd1">14.8</column>
+            <column name="sd2">16.6</column>
+            <column name="sd3">18.7</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">30</column>
+            <column name="l">-0.0431</column>
+            <column name="m">13.3</column>
+            <column name="s">0.11781</column>
+            <column name="sd3neg">9.4</column>
+            <column name="sd2neg">10.5</column>
+            <column name="sd1neg">11.8</column>
+            <column name="sd0">13.3</column>
+            <column name="sd1">15</column>
+            <column name="sd2">16.9</column>
+            <column name="sd3">19</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">31</column>
+            <column name="l">-0.0476</column>
+            <column name="m">13.4798</column>
+            <column name="s">0.11839</column>
+            <column name="sd3neg">9.5</column>
+            <column name="sd2neg">10.7</column>
+            <column name="sd1neg">12</column>
+            <column name="sd0">13.5</column>
+            <column name="sd1">15.2</column>
+            <column name="sd2">17.1</column>
+            <column name="sd3">19.3</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">32</column>
+            <column name="l">-0.052</column>
+            <column name="m">13.6567</column>
+            <column name="s">0.11896</column>
+            <column name="sd3neg">9.6</column>
+            <column name="sd2neg">10.8</column>
+            <column name="sd1neg">12.1</column>
+            <column name="sd0">13.7</column>
+            <column name="sd1">15.4</column>
+            <column name="sd2">17.4</column>
+            <column name="sd3">19.6</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">33</column>
+            <column name="l">-0.0564</column>
+            <column name="m">13.8309</column>
+            <column name="s">0.11953</column>
+            <column name="sd3neg">9.7</column>
+            <column name="sd2neg">10.9</column>
+            <column name="sd1neg">12.3</column>
+            <column name="sd0">13.8</column>
+            <column name="sd1">15.6</column>
+            <column name="sd2">17.6</column>
+            <column name="sd3">19.9</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">34</column>
+            <column name="l">-0.0606</column>
+            <column name="m">14.0031</column>
+            <column name="s">0.12008</column>
+            <column name="sd3neg">9.8</column>
+            <column name="sd2neg">11</column>
+            <column name="sd1neg">12.4</column>
+            <column name="sd0">14</column>
+            <column name="sd1">15.8</column>
+            <column name="sd2">17.8</column>
+            <column name="sd3">20.2</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">35</column>
+            <column name="l">-0.0648</column>
+            <column name="m">14.1736</column>
+            <column name="s">0.12062</column>
+            <column name="sd3neg">9.9</column>
+            <column name="sd2neg">11.2</column>
+            <column name="sd1neg">12.6</column>
+            <column name="sd0">14.2</column>
+            <column name="sd1">16</column>
+            <column name="sd2">18.1</column>
+            <column name="sd3">20.4</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">36</column>
+            <column name="l">-0.0689</column>
+            <column name="m">14.3429</column>
+            <column name="s">0.12116</column>
+            <column name="sd3neg">10</column>
+            <column name="sd2neg">11.3</column>
+            <column name="sd1neg">12.7</column>
+            <column name="sd0">14.3</column>
+            <column name="sd1">16.2</column>
+            <column name="sd2">18.3</column>
+            <column name="sd3">20.7</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">37</column>
+            <column name="l">-0.0729</column>
+            <column name="m">14.5113</column>
+            <column name="s">0.12168</column>
+            <column name="sd3neg">10.1</column>
+            <column name="sd2neg">11.4</column>
+            <column name="sd1neg">12.9</column>
+            <column name="sd0">14.5</column>
+            <column name="sd1">16.4</column>
+            <column name="sd2">18.6</column>
+            <column name="sd3">21</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">38</column>
+            <column name="l">-0.0769</column>
+            <column name="m">14.6791</column>
+            <column name="s">0.1222</column>
+            <column name="sd3neg">10.2</column>
+            <column name="sd2neg">11.5</column>
+            <column name="sd1neg">13</column>
+            <column name="sd0">14.7</column>
+            <column name="sd1">16.6</column>
+            <column name="sd2">18.8</column>
+            <column name="sd3">21.3</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">39</column>
+            <column name="l">-0.0808</column>
+            <column name="m">14.8466</column>
+            <column name="s">0.12271</column>
+            <column name="sd3neg">10.3</column>
+            <column name="sd2neg">11.6</column>
+            <column name="sd1neg">13.1</column>
+            <column name="sd0">14.8</column>
+            <column name="sd1">16.8</column>
+            <column name="sd2">19</column>
+            <column name="sd3">21.6</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">40</column>
+            <column name="l">-0.0846</column>
+            <column name="m">15.014</column>
+            <column name="s">0.12322</column>
+            <column name="sd3neg">10.4</column>
+            <column name="sd2neg">11.8</column>
+            <column name="sd1neg">13.3</column>
+            <column name="sd0">15</column>
+            <column name="sd1">17</column>
+            <column name="sd2">19.3</column>
+            <column name="sd3">21.9</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">41</column>
+            <column name="l">-0.0883</column>
+            <column name="m">15.1813</column>
+            <column name="s">0.12373</column>
+            <column name="sd3neg">10.5</column>
+            <column name="sd2neg">11.9</column>
+            <column name="sd1neg">13.4</column>
+            <column name="sd0">15.2</column>
+            <column name="sd1">17.2</column>
+            <column name="sd2">19.5</column>
+            <column name="sd3">22.1</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">42</column>
+            <column name="l">-0.092</column>
+            <column name="m">15.3486</column>
+            <column name="s">0.12425</column>
+            <column name="sd3neg">10.6</column>
+            <column name="sd2neg">12</column>
+            <column name="sd1neg">13.6</column>
+            <column name="sd0">15.3</column>
+            <column name="sd1">17.4</column>
+            <column name="sd2">19.7</column>
+            <column name="sd3">22.4</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">43</column>
+            <column name="l">-0.0957</column>
+            <column name="m">15.5158</column>
+            <column name="s">0.12478</column>
+            <column name="sd3neg">10.7</column>
+            <column name="sd2neg">12.1</column>
+            <column name="sd1neg">13.7</column>
+            <column name="sd0">15.5</column>
+            <column name="sd1">17.6</column>
+            <column name="sd2">20</column>
+            <column name="sd3">22.7</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">44</column>
+            <column name="l">-0.0993</column>
+            <column name="m">15.6828</column>
+            <column name="s">0.12531</column>
+            <column name="sd3neg">10.8</column>
+            <column name="sd2neg">12.2</column>
+            <column name="sd1neg">13.8</column>
+            <column name="sd0">15.7</column>
+            <column name="sd1">17.8</column>
+            <column name="sd2">20.2</column>
+            <column name="sd3">23</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">45</column>
+            <column name="l">-0.1028</column>
+            <column name="m">15.8497</column>
+            <column name="s">0.12586</column>
+            <column name="sd3neg">10.9</column>
+            <column name="sd2neg">12.4</column>
+            <column name="sd1neg">14</column>
+            <column name="sd0">15.8</column>
+            <column name="sd1">18</column>
+            <column name="sd2">20.5</column>
+            <column name="sd3">23.3</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">46</column>
+            <column name="l">-0.1063</column>
+            <column name="m">16.0163</column>
+            <column name="s">0.12643</column>
+            <column name="sd3neg">11</column>
+            <column name="sd2neg">12.5</column>
+            <column name="sd1neg">14.1</column>
+            <column name="sd0">16</column>
+            <column name="sd1">18.2</column>
+            <column name="sd2">20.7</column>
+            <column name="sd3">23.6</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">47</column>
+            <column name="l">-0.1097</column>
+            <column name="m">16.1827</column>
+            <column name="s">0.127</column>
+            <column name="sd3neg">11.1</column>
+            <column name="sd2neg">12.6</column>
+            <column name="sd1neg">14.3</column>
+            <column name="sd0">16.2</column>
+            <column name="sd1">18.4</column>
+            <column name="sd2">20.9</column>
+            <column name="sd3">23.9</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">48</column>
+            <column name="l">-0.1131</column>
+            <column name="m">16.3489</column>
+            <column name="s">0.12759</column>
+            <column name="sd3neg">11.2</column>
+            <column name="sd2neg">12.7</column>
+            <column name="sd1neg">14.4</column>
+            <column name="sd0">16.3</column>
+            <column name="sd1">18.6</column>
+            <column name="sd2">21.2</column>
+            <column name="sd3">24.2</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">49</column>
+            <column name="l">-0.1165</column>
+            <column name="m">16.515</column>
+            <column name="s">0.12819</column>
+            <column name="sd3neg">11.3</column>
+            <column name="sd2neg">12.8</column>
+            <column name="sd1neg">14.5</column>
+            <column name="sd0">16.5</column>
+            <column name="sd1">18.8</column>
+            <column name="sd2">21.4</column>
+            <column name="sd3">24.5</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">50</column>
+            <column name="l">-0.1198</column>
+            <column name="m">16.6811</column>
+            <column name="s">0.1288</column>
+            <column name="sd3neg">11.4</column>
+            <column name="sd2neg">12.9</column>
+            <column name="sd1neg">14.7</column>
+            <column name="sd0">16.7</column>
+            <column name="sd1">19</column>
+            <column name="sd2">21.7</column>
+            <column name="sd3">24.8</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">51</column>
+            <column name="l">-0.123</column>
+            <column name="m">16.8471</column>
+            <column name="s">0.12943</column>
+            <column name="sd3neg">11.5</column>
+            <column name="sd2neg">13.1</column>
+            <column name="sd1neg">14.8</column>
+            <column name="sd0">16.8</column>
+            <column name="sd1">19.2</column>
+            <column name="sd2">21.9</column>
+            <column name="sd3">25.1</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">52</column>
+            <column name="l">-0.1262</column>
+            <column name="m">17.0132</column>
+            <column name="s">0.13005</column>
+            <column name="sd3neg">11.6</column>
+            <column name="sd2neg">13.2</column>
+            <column name="sd1neg">15</column>
+            <column name="sd0">17</column>
+            <column name="sd1">19.4</column>
+            <column name="sd2">22.2</column>
+            <column name="sd3">25.4</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">53</column>
+            <column name="l">-0.1294</column>
+            <column name="m">17.1792</column>
+            <column name="s">0.13069</column>
+            <column name="sd3neg">11.7</column>
+            <column name="sd2neg">13.3</column>
+            <column name="sd1neg">15.1</column>
+            <column name="sd0">17.2</column>
+            <column name="sd1">19.6</column>
+            <column name="sd2">22.4</column>
+            <column name="sd3">25.7</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">54</column>
+            <column name="l">-0.1325</column>
+            <column name="m">17.3452</column>
+            <column name="s">0.13133</column>
+            <column name="sd3neg">11.8</column>
+            <column name="sd2neg">13.4</column>
+            <column name="sd1neg">15.2</column>
+            <column name="sd0">17.3</column>
+            <column name="sd1">19.8</column>
+            <column name="sd2">22.7</column>
+            <column name="sd3">26</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">55</column>
+            <column name="l">-0.1356</column>
+            <column name="m">17.5111</column>
+            <column name="s">0.13197</column>
+            <column name="sd3neg">11.9</column>
+            <column name="sd2neg">13.5</column>
+            <column name="sd1neg">15.4</column>
+            <column name="sd0">17.5</column>
+            <column name="sd1">20</column>
+            <column name="sd2">22.9</column>
+            <column name="sd3">26.3</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">56</column>
+            <column name="l">-0.1387</column>
+            <column name="m">17.6768</column>
+            <column name="s">0.13261</column>
+            <column name="sd3neg">12</column>
+            <column name="sd2neg">13.6</column>
+            <column name="sd1neg">15.5</column>
+            <column name="sd0">17.7</column>
+            <column name="sd1">20.2</column>
+            <column name="sd2">23.2</column>
+            <column name="sd3">26.6</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">57</column>
+            <column name="l">-0.1417</column>
+            <column name="m">17.8422</column>
+            <column name="s">0.13325</column>
+            <column name="sd3neg">12.1</column>
+            <column name="sd2neg">13.7</column>
+            <column name="sd1neg">15.6</column>
+            <column name="sd0">17.8</column>
+            <column name="sd1">20.4</column>
+            <column name="sd2">23.4</column>
+            <column name="sd3">26.9</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">58</column>
+            <column name="l">-0.1447</column>
+            <column name="m">18.0073</column>
+            <column name="s">0.13389</column>
+            <column name="sd3neg">12.2</column>
+            <column name="sd2neg">13.8</column>
+            <column name="sd1neg">15.8</column>
+            <column name="sd0">18</column>
+            <column name="sd1">20.6</column>
+            <column name="sd2">23.7</column>
+            <column name="sd3">27.2</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">59</column>
+            <column name="l">-0.1477</column>
+            <column name="m">18.1722</column>
+            <column name="s">0.13453</column>
+            <column name="sd3neg">12.3</column>
+            <column name="sd2neg">14</column>
+            <column name="sd1neg">15.9</column>
+            <column name="sd0">18.2</column>
+            <column name="sd1">20.8</column>
+            <column name="sd2">23.9</column>
+            <column name="sd3">27.6</column>
+        </table>
+        <table name="pesoedadmasculino">
+            <column name="mes">60</column>
+            <column name="l">-0.1506</column>
+            <column name="m">18.3366</column>
+            <column name="s">0.13517</column>
+            <column name="sd3neg">12.4</column>
+            <column name="sd2neg">14.1</column>
+            <column name="sd1neg">16</column>
+            <column name="sd0">18.3</column>
+            <column name="sd1">21</column>
+            <column name="sd2">24.2</column>
+            <column name="sd3">27.9</column>
+        </table>
+    </database>
+</pma_xml_export>
